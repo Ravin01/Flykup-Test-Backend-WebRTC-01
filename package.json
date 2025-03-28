@@ -1,0 +1,45 @@
+{
+  "name": "scratch-learning-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cashfreepayments/cashfree-js": "^1.0.4",
+    "axios": "^1.7.2",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "cashfree-pg": "^4.1.2",
+    "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "ffmpeg-static": "^5.2.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "hls.js": "^1.5.20",
+    "jsonwebtoken": "^9.0.2",
+    "mediasoup": "^3.15.2",
+    "moment": "^2.30.1",
+    "moment-timezone": "^0.5.46",
+    "mongoose": "^8.4.0",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.15",
+    "paypal-rest-sdk": "^1.8.1",
+    "socket.io": "^4.8.1",
+    "uuid": "^10.0.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "description": "",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
